@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#nav{
+    background-color: black;
+    height: 32px;
+}
+#nav a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+div .insta{
+    margin-left: 350px;
+    background-color: rgb(240, 224, 224);
+    height: 10px;
+    color: black;
+}
+/* div button:hover{
+    background-color: rgb(233, 255,0); */
+}

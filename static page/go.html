@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&family=Cookie&family=Dancing+Script:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <title>baasit</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+    }
+
+    #first {
+        background-color: black;
+        width: 100vw;
+        height: 50px;
+        line-height: 36px;
+        position: fixed;
+    }
+
+    div a {
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        padding: 17px;
+        /* margin:7px; */
+        font-size: 20px;
+    }
+
+    div a:hover {
+        color: greenyellow;
+    }
+
+    #f1 {
+        width: 45px;
+        color: rgb(0, 0, 0);
+        border: 3px solid black;
+        margin-left: 550px;
+        height: 21px;
+        line-height: 21px;
+        font-size: 11px;
+        font-weight: bold;
+
+    }
+
+    #f1:hover {
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        cursor: pointer;
+        transition: 0.7s;
+    }
+
+
+    #f2:hover {
+        color: rgb(253, 249, 255);
+        background-color: rgb(0, 0, 0);
+        cursor: pointer;
+        transition: 0.7s;
+
+    }
+
+    #f2 {
+        width: 62px;
+        height: 21px;
+        color: black;
+        border: 3px solid black;
+        line-height: 21px;
+        margin-left: 0px;
+        font-size: 11px;
+        font-weight: bold;
+
+    }
+
+    #vd {
+        width: 100%;
+        height: 100vh;
+        /* border: 2px solid green; */
+        background-color: black;
+        overflow: hidden;
+    }
+
+    #vd video {
+        width: 100%;
+        height: 100vh;
+        margin-top: 30px;
+    }
+
+    .h2 p {
+        color: green;
+        padding: 30px;
+        margin: 40px;
+        width: 30%;
+        height: 200px;
+    }
+
+    .h2 #baasit {
+        margin-left: 70px;
+        margin-top: 50px;
+        /* background-image: url(first.jpg); */
+    }
+
+    .h22 {
+        border: 3px solid black;
+        float: left;
+    }
+
+    .parent {
+        display: flex;
+    }
+
+    .intro {
+        margin: 30px;
+        width: 30%;
+        padding-left: 15px;
+    }
+
+    .intro p {
+        padding-top: 30px;
+
+    }
+
+    .row2 {
+        margin: 30px;
+        width: 30%;
+    }
+
+    .row2 p {
+        padding-top: 30px;
+    }
+
+    .bug {
+        margin: 30px;
+        width: 30%;
+    }
+
+    .bug p {
+        padding-top: 30px;
+    }
+
+    .mid1 {
+        /* width: 100%; */
+        height: 300px;
+        background-image: url(midimg1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 30px;
+    }
+
+    .mid1 .be {
+        color: white;
+        text-align: center;
+        padding-top: 106px;
+        font-size: 27px;
+        word-spacing: 8px;
+    }
+
+    .mid1 .geek {
+        text-align: center;
+        color: white;
+        font-size: 60px;
+        text-shadow: -5px -4px 1px black;
+    }
+
+    .hack {
+        margin: 40px;
+    }
+
+    .hack h2 {
+        text-align: center;
+        font-size: 25px;
+
+    }
+
+    .hack p {
+        padding: 20px;
+    }
+
+    .pik img {
+        width: 300px;
+        margin: 10px;
+        margin-left: 50px;
+        height: 440px;
+        border: 2px solid rgb(16, 212, 10);
+    }
+
+    .bio {
+        border-top: 2px solid black;
+        /* border-bottom: 2px solid black; */
+        padding: 30px;
+        margin: 20px;
+        display: flex;
+        height:100vh;
+        border-bottom: 2px solid black;
+    }
+
+    #basu {
+        width: 33%;
+    }
+
+    #basu p {
+        padding: 30px;
+    }
+
+    #basu h2 {
+        padding-left: 30px;
+        font-size: 24px;
+        text-shadow: 0px -1px 1px rgb(56, 58, 56);
+    }
+    .foot{
+        font-size: 16px;
+        margin-right: 20px;
+        float: right;
+        /* font-weight: bold; */
+`        
+    }
+    .disclaimer{
+        
+        background-color: rgb(144, 178, 6);
+        color: black;
+        margin-left: 8px;
+        margin-right: 6px;
+        padding: 10px;
+    }
+    div.footer{
+        display: flex;
+    }
+     .foot{
+        margin-left: 750px;
+     }
+     div footer{
+         font-weight: bold;
+     }
+     #one{
+         margin-left:10px ;
+     }
+</style>
+
+<body>
+    <div id="first">
+        <a href="https://172.16.16.1:4100/success.shtml" target="_blank">Home</a>
+        <a href="#">blogs</a>
+        <a href="#">topics</a>
+        <a href="#">contact us</a>
+        <a href="#">about us</a>
+        <button id="f1">Log In</button>
+        <button id="f2">Sign Up</button>
+    </div>
+    <div id="vd">
+        <video src="demo.mp4" controls autoplay>HACK THE BOX</video>
+    </div>
+    <div class="parent">
+        <div class="intro">
+            <h2>Introduction</h2>
+            <p>Hello all! I <b>Baasit Dhar</b> a Computer Science student in punjab .I’m from <b> Kashmir</b>. I’m very
+                pleased to
+                exchange
+                ideas in computer and other field with different friends. I will share valuable knowledge through this
+                Website. <br> Thank you!!!</p>
+        </div>
+        <div class="bug">
+            <h2>Bug Hunter</h2>
+            <p>A bug hunt is a robust explorative test that finds bugs and vulnerabilities in websites or mobile apps.
+                In a bug hunt, testers will carry out functional testing with the specific purpose of finding defects in
+                a website or app’s functionality, compatibility or content.</p>
+        </div>
+        <div class="row2">
+            <h2>Penetration Tester</h2>
+            <p>Penetration testing is also known as pen testing or ethical hacking. It describes the intentional
+                launching of simulated cyberattacks that seek out exploitable vulnerabilities in computer systems,
+                networks, websites, and applications.</p>
+        </div>
+    </div>
+    <div class="mid1">
+        <h2 class="be"> Be Ready To Become <br>a</h2>
+        <h2 class="geek">Geek</h2>
+    </div>
+    <div class="hack">
+        <h2>What Is Ethical Hacking</h2>
+        <p>Ethical hacking is a process of detecting vulnerabilities in an application, system, or organization’s
+            infrastructure that an attacker can use to exploit an individual or organization. They use this process to
+            prevent cyberattacks and security breaches by lawfully hacking into the systems and looking for weak points.
+            An ethical hacker follows the steps and thought process of a malicious attacker to gain authorized access
+            and test the organization’s strategies and network.
+
+            An attacker or an ethical hacker follows the same five-step hacking process to breach the network or system.
+            The ethical hacking process begins with looking for various ways to hack into the system, exploiting
+            vulnerabilities, maintaining steady access to the system, and lastly, clearing one’s tracks.
+        </p>
+    </div>
+    <div class="bio">
+        <div class="pik">
+            <img src="baasit.jpeg" alt="its me Baasit">
+        </div>
+        <div id="basu">
+            <h2>Baasit Dhar</h2>
+            <p>Cyberbiosecurity threats are becoming increasingly important as technological progress continues to
+                accelerate in fields such as artificial intelligence, automation, and synthetic biology.[2][6] Moreover,
+                not only is the pace of progress in these fields accelerating, but they are also becoming increasingly
+                integrated, leading to a growing overlap that is generating new security vulnerabilities.[4][7] Many of
+                the potential risks from future progress in bioengineering that were identified by researchers fall
+                within the bounds of cyberbiosecurity.
+            <br> <b>Choose The POWER.</b> </p>
+        </div>
+    </div>
+    <div class="disclaimer"><p> <b>Disclaimer</b>  : I  Baasit Dhar from Kashmir tries to keep accurate information on its website(s). However, we cannot guarantee that information will always be up-to date. All official websites of the University are for information purposes only and does not constitute a legal contract between the University and any person or entity unless otherwise specified. Information on official University websites is subject to change without prior notice. Although every reasonable effort is made to present current and accurate information, the University makes no guarantees of any kind. Thanku</p></div>
+    <div class="footer">
+    <footer id="one">Private Website</footer>
+    <footer class="foot">2022 &#169 All Rights Reserved By Baasit Dhar</footer>
+</div>
+</body>
+
+</html>
